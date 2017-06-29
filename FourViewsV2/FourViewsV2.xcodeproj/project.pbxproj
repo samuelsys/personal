@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF7900731F043C2C0051CC6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900721F043C2C0051CC6F /* main.m */; };
+		AF7900761F043C2C0051CC6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900751F043C2C0051CC6F /* AppDelegate.m */; };
+		AF7900791F043C2C0051CC6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900781F043C2C0051CC6F /* ViewController.m */; };
+		AF79007C1F043C2C0051CC6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF79007A1F043C2C0051CC6F /* Main.storyboard */; };
+		AF79007E1F043C2C0051CC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF79007D1F043C2C0051CC6F /* Assets.xcassets */; };
+		AF7900811F043C2C0051CC6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF79007F1F043C2C0051CC6F /* LaunchScreen.storyboard */; };
+		AF79008C1F043C2C0051CC6F /* FourViewsV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF79008B1F043C2C0051CC6F /* FourViewsV2Tests.m */; };
+		AF7900971F043C2C0051CC6F /* FourViewsV2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900961F043C2C0051CC6F /* FourViewsV2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF7900881F043C2C0051CC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7900661F043C2C0051CC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF79006D1F043C2C0051CC6F;
+			remoteInfo = FourViewsV2;
+		};
+		AF7900931F043C2C0051CC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7900661F043C2C0051CC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF79006D1F043C2C0051CC6F;
+			remoteInfo = FourViewsV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF79006E1F043C2C0051CC6F /* FourViewsV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourViewsV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7900721F043C2C0051CC6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF7900741F043C2C0051CC6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF7900751F043C2C0051CC6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF7900771F043C2C0051CC6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF7900781F043C2C0051CC6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF79007B1F043C2C0051CC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF79007D1F043C2C0051CC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7900801F043C2C0051CC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7900821F043C2C0051CC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7900871F043C2C0051CC6F /* FourViewsV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourViewsV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF79008B1F043C2C0051CC6F /* FourViewsV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewsV2Tests.m; sourceTree = "<group>"; };
+		AF79008D1F043C2C0051CC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7900921F043C2C0051CC6F /* FourViewsV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourViewsV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7900961F043C2C0051CC6F /* FourViewsV2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewsV2UITests.m; sourceTree = "<group>"; };
+		AF7900981F043C2C0051CC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF79006B1F043C2C0051CC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7900841F043C2C0051CC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF79008F1F043C2C0051CC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7900651F043C2C0051CC6F = {
+			isa = PBXGroup;
+			children = (
+				AF7900701F043C2C0051CC6F /* FourViewsV2 */,
+				AF79008A1F043C2C0051CC6F /* FourViewsV2Tests */,
+				AF7900951F043C2C0051CC6F /* FourViewsV2UITests */,
+				AF79006F1F043C2C0051CC6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF79006F1F043C2C0051CC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF79006E1F043C2C0051CC6F /* FourViewsV2.app */,
+				AF7900871F043C2C0051CC6F /* FourViewsV2Tests.xctest */,
+				AF7900921F043C2C0051CC6F /* FourViewsV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7900701F043C2C0051CC6F /* FourViewsV2 */ = {
+			isa = PBXGroup;
+			children = (
+				AF7900741F043C2C0051CC6F /* AppDelegate.h */,
+				AF7900751F043C2C0051CC6F /* AppDelegate.m */,
+				AF7900771F043C2C0051CC6F /* ViewController.h */,
+				AF7900781F043C2C0051CC6F /* ViewController.m */,
+				AF79007A1F043C2C0051CC6F /* Main.storyboard */,
+				AF79007D1F043C2C0051CC6F /* Assets.xcassets */,
+				AF79007F1F043C2C0051CC6F /* LaunchScreen.storyboard */,
+				AF7900821F043C2C0051CC6F /* Info.plist */,
+				AF7900711F043C2C0051CC6F /* Supporting Files */,
+			);
+			path = FourViewsV2;
+			sourceTree = "<group>";
+		};
+		AF7900711F043C2C0051CC6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF7900721F043C2C0051CC6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF79008A1F043C2C0051CC6F /* FourViewsV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF79008B1F043C2C0051CC6F /* FourViewsV2Tests.m */,
+				AF79008D1F043C2C0051CC6F /* Info.plist */,
+			);
+			path = FourViewsV2Tests;
+			sourceTree = "<group>";
+		};
+		AF7900951F043C2C0051CC6F /* FourViewsV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF7900961F043C2C0051CC6F /* FourViewsV2UITests.m */,
+				AF7900981F043C2C0051CC6F /* Info.plist */,
+			);
+			path = FourViewsV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF79006D1F043C2C0051CC6F /* FourViewsV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF79009B1F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2" */;
+			buildPhases = (
+				AF79006A1F043C2C0051CC6F /* Sources */,
+				AF79006B1F043C2C0051CC6F /* Frameworks */,
+				AF79006C1F043C2C0051CC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourViewsV2;
+			productName = FourViewsV2;
+			productReference = AF79006E1F043C2C0051CC6F /* FourViewsV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF7900861F043C2C0051CC6F /* FourViewsV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF79009E1F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2Tests" */;
+			buildPhases = (
+				AF7900831F043C2C0051CC6F /* Sources */,
+				AF7900841F043C2C0051CC6F /* Frameworks */,
+				AF7900851F043C2C0051CC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7900891F043C2C0051CC6F /* PBXTargetDependency */,
+			);
+			name = FourViewsV2Tests;
+			productName = FourViewsV2Tests;
+			productReference = AF7900871F043C2C0051CC6F /* FourViewsV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF7900911F043C2C0051CC6F /* FourViewsV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7900A11F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2UITests" */;
+			buildPhases = (
+				AF79008E1F043C2C0051CC6F /* Sources */,
+				AF79008F1F043C2C0051CC6F /* Frameworks */,
+				AF7900901F043C2C0051CC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7900941F043C2C0051CC6F /* PBXTargetDependency */,
+			);
+			name = FourViewsV2UITests;
+			productName = FourViewsV2UITests;
+			productReference = AF7900921F043C2C0051CC6F /* FourViewsV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7900661F043C2C0051CC6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Samuel Furtado e Silva";
+				TargetAttributes = {
+					AF79006D1F043C2C0051CC6F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AF7900861F043C2C0051CC6F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AF79006D1F043C2C0051CC6F;
+					};
+					AF7900911F043C2C0051CC6F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AF79006D1F043C2C0051CC6F;
+					};
+				};
+			};
+			buildConfigurationList = AF7900691F043C2C0051CC6F /* Build configuration list for PBXProject "FourViewsV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7900651F043C2C0051CC6F;
+			productRefGroup = AF79006F1F043C2C0051CC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF79006D1F043C2C0051CC6F /* FourViewsV2 */,
+				AF7900861F043C2C0051CC6F /* FourViewsV2Tests */,
+				AF7900911F043C2C0051CC6F /* FourViewsV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF79006C1F043C2C0051CC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7900811F043C2C0051CC6F /* LaunchScreen.storyboard in Resources */,
+				AF79007E1F043C2C0051CC6F /* Assets.xcassets in Resources */,
+				AF79007C1F043C2C0051CC6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7900851F043C2C0051CC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7900901F043C2C0051CC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF79006A1F043C2C0051CC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7900791F043C2C0051CC6F /* ViewController.m in Sources */,
+				AF7900761F043C2C0051CC6F /* AppDelegate.m in Sources */,
+				AF7900731F043C2C0051CC6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7900831F043C2C0051CC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF79008C1F043C2C0051CC6F /* FourViewsV2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF79008E1F043C2C0051CC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7900971F043C2C0051CC6F /* FourViewsV2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF7900891F043C2C0051CC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF79006D1F043C2C0051CC6F /* FourViewsV2 */;
+			targetProxy = AF7900881F043C2C0051CC6F /* PBXContainerItemProxy */;
+		};
+		AF7900941F043C2C0051CC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF79006D1F043C2C0051CC6F /* FourViewsV2 */;
+			targetProxy = AF7900931F043C2C0051CC6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF79007A1F043C2C0051CC6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF79007B1F043C2C0051CC6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF79007F1F043C2C0051CC6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7900801F043C2C0051CC6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7900991F043C2C0051CC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF79009A1F043C2C0051CC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF79009C1F043C2C0051CC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FourViewsV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.views.FourViewsV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF79009D1F043C2C0051CC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FourViewsV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.views.FourViewsV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF79009F1F043C2C0051CC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FourViewsV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.views.FourViewsV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourViewsV2.app/FourViewsV2";
+			};
+			name = Debug;
+		};
+		AF7900A01F043C2C0051CC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FourViewsV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.views.FourViewsV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourViewsV2.app/FourViewsV2";
+			};
+			name = Release;
+		};
+		AF7900A21F043C2C0051CC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FourViewsV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.views.FourViewsV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FourViewsV2;
+			};
+			name = Debug;
+		};
+		AF7900A31F043C2C0051CC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FourViewsV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.views.FourViewsV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FourViewsV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7900691F043C2C0051CC6F /* Build configuration list for PBXProject "FourViewsV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7900991F043C2C0051CC6F /* Debug */,
+				AF79009A1F043C2C0051CC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF79009B1F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF79009C1F043C2C0051CC6F /* Debug */,
+				AF79009D1F043C2C0051CC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF79009E1F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF79009F1F043C2C0051CC6F /* Debug */,
+				AF7900A01F043C2C0051CC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF7900A11F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7900A21F043C2C0051CC6F /* Debug */,
+				AF7900A31F043C2C0051CC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7900661F043C2C0051CC6F /* Project object */;
+}
