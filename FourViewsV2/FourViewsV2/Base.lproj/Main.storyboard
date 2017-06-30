@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="MainView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -33,20 +33,23 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9XF-85-icb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3gr-Nt-TXy"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9XF-85-icb" secondAttribute="bottom" id="IaH-Vp-NZS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9XF-85-icb" secondAttribute="bottom" id="4LF-xW-iFj"/>
                             <constraint firstItem="9XF-85-icb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VSo-vO-4FM"/>
                             <constraint firstAttribute="trailing" secondItem="9XF-85-icb" secondAttribute="trailing" id="eCK-2X-fFM"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9XF-85-icb" secondAttribute="bottom" constant="168" id="ida-Fl-MIO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9XF-85-icb" secondAttribute="bottom" constant="168" id="njs-Ww-8Op"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="IaH-Vp-NZS"/>
+                                <exclude reference="4LF-xW-iFj"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outlet property="containerView" destination="9XF-85-icb" id="TXu-vN-WVr"/>
+                        </connections>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="containerView" destination="9XF-85-icb" id="jpe-ba-qyz"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="uRF-i6-DN6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

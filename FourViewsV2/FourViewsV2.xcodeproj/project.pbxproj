@@ -15,6 +15,7 @@
 		AF7900811F043C2C0051CC6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF79007F1F043C2C0051CC6F /* LaunchScreen.storyboard */; };
 		AF79008C1F043C2C0051CC6F /* FourViewsV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF79008B1F043C2C0051CC6F /* FourViewsV2Tests.m */; };
 		AF7900971F043C2C0051CC6F /* FourViewsV2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900961F043C2C0051CC6F /* FourViewsV2UITests.m */; };
+		AF7900A61F06758F0051CC6F /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900A51F06758F0051CC6F /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AF7900921F043C2C0051CC6F /* FourViewsV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourViewsV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7900961F043C2C0051CC6F /* FourViewsV2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewsV2UITests.m; sourceTree = "<group>"; };
 		AF7900981F043C2C0051CC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7900A41F06758F0051CC6F /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		AF7900A51F06758F0051CC6F /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				AF7900751F043C2C0051CC6F /* AppDelegate.m */,
 				AF7900771F043C2C0051CC6F /* ViewController.h */,
 				AF7900781F043C2C0051CC6F /* ViewController.m */,
+				AF7900A41F06758F0051CC6F /* MainView.h */,
+				AF7900A51F06758F0051CC6F /* MainView.m */,
 				AF79007A1F043C2C0051CC6F /* Main.storyboard */,
 				AF79007D1F043C2C0051CC6F /* Assets.xcassets */,
 				AF79007F1F043C2C0051CC6F /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7900791F043C2C0051CC6F /* ViewController.m in Sources */,
+				AF7900A61F06758F0051CC6F /* MainView.m in Sources */,
 				AF7900761F043C2C0051CC6F /* AppDelegate.m in Sources */,
 				AF7900731F043C2C0051CC6F /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				AF79009D1F043C2C0051CC6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF79009E1F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				AF7900A01F043C2C0051CC6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF7900A11F043C2C0051CC6F /* Build configuration list for PBXNativeTarget "FourViewsV2UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				AF7900A31F043C2C0051CC6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
