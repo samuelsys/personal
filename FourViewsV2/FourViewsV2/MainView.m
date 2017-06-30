@@ -46,7 +46,7 @@ static CGFloat const kMarginRepeats = 2;
 
 #pragma Private Methods
 
-- (NSInteger)calculeExactHeightForComponent:(UIView*)view componentSize:(CGFloat)componentSize {
+- (NSInteger)calculeExactHeightForComponent:(UIView *)view componentSize:(CGFloat)componentSize {
     NSInteger viewHeight = CGRectGetHeight(view.frame);
     NSInteger percentage = kSmallComponentPercentage;
     if (componentSize == kBigComponentPercentage){
