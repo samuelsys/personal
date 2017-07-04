@@ -16,6 +16,8 @@
 		AF79008C1F043C2C0051CC6F /* FourViewsV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF79008B1F043C2C0051CC6F /* FourViewsV2Tests.m */; };
 		AF7900971F043C2C0051CC6F /* FourViewsV2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900961F043C2C0051CC6F /* FourViewsV2UITests.m */; };
 		AF7900A61F06758F0051CC6F /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900A51F06758F0051CC6F /* MainView.m */; };
+		AF7900A91F0681160051CC6F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900A81F0681160051CC6F /* AnimationViewController.m */; };
+		AF7900AC1F0681610051CC6F /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7900AB1F0681610051CC6F /* AnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		AF7900981F043C2C0051CC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF7900A41F06758F0051CC6F /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		AF7900A51F06758F0051CC6F /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		AF7900A71F0681160051CC6F /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		AF7900A81F0681160051CC6F /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		AF7900AA1F0681610051CC6F /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		AF7900AB1F0681610051CC6F /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				AF7900781F043C2C0051CC6F /* ViewController.m */,
 				AF7900A41F06758F0051CC6F /* MainView.h */,
 				AF7900A51F06758F0051CC6F /* MainView.m */,
+				AF7900A71F0681160051CC6F /* AnimationViewController.h */,
+				AF7900A81F0681160051CC6F /* AnimationViewController.m */,
+				AF7900AA1F0681610051CC6F /* AnimationView.h */,
+				AF7900AB1F0681610051CC6F /* AnimationView.m */,
 				AF79007A1F043C2C0051CC6F /* Main.storyboard */,
 				AF79007D1F043C2C0051CC6F /* Assets.xcassets */,
 				AF79007F1F043C2C0051CC6F /* LaunchScreen.storyboard */,
@@ -277,6 +287,8 @@
 			files = (
 				AF7900791F043C2C0051CC6F /* ViewController.m in Sources */,
 				AF7900A61F06758F0051CC6F /* MainView.m in Sources */,
+				AF7900A91F0681160051CC6F /* AnimationViewController.m in Sources */,
+				AF7900AC1F0681610051CC6F /* AnimationView.m in Sources */,
 				AF7900761F043C2C0051CC6F /* AppDelegate.m in Sources */,
 				AF7900731F043C2C0051CC6F /* main.m in Sources */,
 			);
