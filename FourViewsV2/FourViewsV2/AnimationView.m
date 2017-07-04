@@ -12,6 +12,7 @@ static float const kDurationVerticalDirections = 3.0f;
 static float const kDurationHorizontalDirections = 1.5f;
 static float const kDurationTotal = 6.0f;
 static float const kDurationWait = 0.1f;
+static float const kDoubleOperator = 2;
 static NSInteger const kStartHeightPosition = 15;
 static NSInteger const kLabelWidth = 57;
 static NSInteger const kLabelHeight = 21;
@@ -54,16 +55,16 @@ typedef NS_ENUM (NSInteger, CMDirection){
         self.currentX = toWidth - kLabelWidth;
         self.currentY = toHeight - kLabelHeight;
         
-        [self moveLabel:self.button1 from:kStartHeightPosition to:toHeight - kLabelHeight direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
+        [self moveLabel:self.button1 from:kStartHeightPosition to:toHeight - kLabelHeight * kDoubleOperator direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
             self.currentX = 0;
             self.currentY = toHeight - kLabelHeight;
             
-            [self moveLabel:self.button1 from:-kLabelWidth to:-(toWidth - kLabelWidth) direction:CMDirectonHorizontal duration:kDurationHorizontalDirections completion:^{
+            [self moveLabel:self.button1 from:0 to:-(toWidth - kLabelWidth) direction:CMDirectonHorizontal duration:kDurationHorizontalDirections completion:^{
             
                 self.currentX = 0;
                 self.currentY = kStartHeightPosition;
                     
-                [self moveLabel:self.button1 from:-kLabelHeight to:-(toHeight - kStartHeightPosition * 2) direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
+                [self moveLabel:self.button1 from:-kLabelHeight to:-(toHeight - kStartHeightPosition * kDoubleOperator) direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
                         
                 }];
             }];
