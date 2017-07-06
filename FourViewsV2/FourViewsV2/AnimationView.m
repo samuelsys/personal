@@ -33,7 +33,7 @@ static NSString *const kKeyPathLabel = @"move";
 
 typedef void(^AnimationBlock) ();
 
-typedef NS_ENUM (NSInteger, CMDirection){
+typedef NS_ENUM (NSInteger, CMDirection) {
     CMDirectonHorizontal = 0,
     CMDirectionVertical
 };
