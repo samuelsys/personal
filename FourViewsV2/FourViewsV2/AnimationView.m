@@ -10,10 +10,10 @@
 
 static float const kDurationVerticalDirections = 3.0f;
 static float const kDurationHorizontalDirections = 1.5f;
-static float const kDurationTotal = 6.0f;
-static float const kDurationWait = 0.1f;
-static float const kDoubleOperator = 2;
-static NSInteger const kStartHeightPosition = 15;
+static float const kDurationTotal = 8.0f;
+static float const kDurationWait = 0.08f;
+static NSInteger const kStartHeightPosition = 0;
+static NSInteger const kStartHWidthPosition = 0;
 static NSInteger const kLabelWidth = 57;
 static NSInteger const kLabelHeight = 21;
 static NSString *const kDirectionLabelHorizontal = @"transform.translation.x";
@@ -50,21 +50,21 @@ typedef NS_ENUM (NSInteger, CMDirection){
     self.currentX = toWidth - kLabelWidth;
     self.currentY = kStartHeightPosition;
     
-    [self moveLabel:self.button1 from:0 to:toWidth - kLabelWidth direction:CMDirectonHorizontal duration:kDurationHorizontalDirections completion:^{
+    [self moveLabel:self.button1 from:kStartHWidthPosition to:toWidth - kLabelWidth direction:CMDirectonHorizontal duration:kDurationHorizontalDirections completion:^{
         
         self.currentX = toWidth - kLabelWidth;
         self.currentY = toHeight - kLabelHeight;
         
-        [self moveLabel:self.button1 from:kStartHeightPosition to:toHeight - kLabelHeight * kDoubleOperator direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
-            self.currentX = 0;
-            self.currentY = toHeight - kLabelHeight;
+        [self moveLabel:self.button1 from:kStartHeightPosition to:toHeight - kLabelHeight  direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
+            self.currentX = kStartHWidthPosition;
+            self.currentY = toHeight;
             
-            [self moveLabel:self.button1 from:0 to:-(toWidth - kLabelWidth) direction:CMDirectonHorizontal duration:kDurationHorizontalDirections completion:^{
+            [self moveLabel:self.button1 from:kStartHWidthPosition to:-(toWidth - kLabelWidth) direction:CMDirectonHorizontal duration:kDurationHorizontalDirections completion:^{
             
-                self.currentX = 0;
+                self.currentX = kStartHWidthPosition;
                 self.currentY = kStartHeightPosition;
                     
-                [self moveLabel:self.button1 from:-kLabelHeight to:-(toHeight - kStartHeightPosition * kDoubleOperator) direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
+                [self moveLabel:self.button1 from:-kLabelHeight to:-(toHeight - kStartHeightPosition) direction:CMDirectionVertical duration:kDurationVerticalDirections completion:^{
                         
                 }];
             }];
@@ -88,12 +88,11 @@ typedef NS_ENUM (NSInteger, CMDirection){
     translateAnim.duration = duration;
     translateAnim.fromValue = [NSNumber numberWithFloat:from];
     translateAnim.toValue = [NSNumber numberWithFloat:to];
-    
     [label.layer addAnimation:translateAnim forKey:kKeyPathLabel];
-    
+
     [CATransaction setCompletionBlock:^{
-        [NSThread sleepForTimeInterval: duration-kDurationWait];
-         CGRect newPosition = CGRectMake(self.currentX , self.currentY, kLabelWidth, kLabelHeight);
+        [NSThread sleepForTimeInterval: duration - kDurationWait];
+        CGRect newPosition = CGRectMake(self.currentX , self.currentY, kLabelWidth, kLabelHeight);
          label.frame = newPosition;
 
          return completion();

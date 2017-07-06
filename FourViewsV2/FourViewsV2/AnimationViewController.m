@@ -21,4 +21,8 @@
     [self.animationView configureViews];
 }
 
+-(BOOL)prefersStatusBarHidden{
+    return YES;
+}
+
 @end
